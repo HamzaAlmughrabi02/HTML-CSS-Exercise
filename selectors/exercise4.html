@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise4</title>
+</head>
+<style>
+    p a {
+        color: green;
+    }
+
+    p a span {
+        background-color: yellow;
+        color: rgb(136, 85, 19);
+    }
+
+    ul li a {
+        color: red;
+    }
+
+    ul li span {
+        font-weight: bold;
+    }
+
+    ul.ul-blue li {
+        color: blue;
+    }
+
+    ul.ul-blue li ul {
+        list-style-type: none;
+    }
+</style>
+
+<body>
+    <p>There is some text <a href="">with a link</a> in it.</p>
+    <p>Second paragrph with a <a href="">link</a>.</p>
+    <p>Third paragraph <a href="">(<span> link </span></a>too, yes).</p>
+
+    <ul>
+        <li>
+            <span>Frist <a href="">link</a></span>
+        </li>
+        <li>Seclond
+            <ul class="ul-blue">
+
+                <li><span>111</span></li>
+                <li>222 <span><a href="">link</a></span></li>
+                <li>333
+                    <ul>
+                        <li><span>red</span></li>
+                        <li>green</li>
+                        <li>blue <a href="">link</a></li>
+                    </ul>
+            </ul>
+        </li>
+        <li>Third</li>
+        <li>Fourth</li>
+
+    </ul>
+</body>
+
+</html>
